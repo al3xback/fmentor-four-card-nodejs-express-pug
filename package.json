@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-four-card-nodejs-express-pug",
 	"version": "1.0.0",
-	"description": "four card feature section using nodejs with express framework and pug template engine",
+	"description": "four card feature section using nodejs, express, and pug",
 	"main": "app.js",
 	"scripts": {
 		"start": "nodemon app.js",
