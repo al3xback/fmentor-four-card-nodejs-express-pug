@@ -3,41 +3,41 @@ extends layouts/main.pug
 block content
 	section.section
 		.section__head
-			h2.section__title
+			h2.cards-summary__title
 				| Reliable, efficient delivery
-			p.section__subtitle
+			p.cards-summary__subtitle
 				strong Powered by Technology
-			p.section__desc
+			p.cards-summary__desc
 				| Our Artificial Intelligence powered tools use
 				| millions of project data points to ensure that your
 				| project is successful
 		.section__body
-			.card__list
-				.card__list-block
-					.card__list-item.card__list-item--supervisor
+			.cards
+				.cards__block
+					.card.card--supervisor
 						h3.card__title Supervisor
 						p.card__desc
 							| Monitors activity to identify project
 							| roadblocks
 						.card__image
 							img(width='64' height='64' src='./images/icons/supervisor.svg' alt='')
-				.card__list-block
-					.card__list-item.card__list-item--team-builder
+				.cards__block
+					.card.card--team-builder
 						h3.card__title Team Builder
 						p.card__desc
 							| Scans our talent network to create the
 							| optimal team for your project
 						.card__image
 							img(width='64' height='64' src='./images/icons/team-builder.svg' alt='')
-					.card__list-item.card__list-item--karma
+					.card.card--karma
 						h3.card__title Karma
 						p.card__desc
 							| Regularly evaluates our talent to ensure
 							| quality
 						.card__image
 							img(width='64' height='64' src='./images/icons/karma.svg' alt='')
-				.card__list-block
-					.card__list-item.card__list-item--calculator
+				.cards__block
+					.card.card--calculator
 						h3.card__title Calculator
 						p.card__desc
 							| Uses data from past projects to provide
